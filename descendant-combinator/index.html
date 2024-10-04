@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descendant - Combinator</title>
+    <style>
+        .container .text {
+            background-color: yellow;
+            color: #E00000;
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="text">This should be styled</p>
+        <p>This should be unstyled</p>
+        <p>This should be unstyled</p>
+        <p class="text">This should be styled</p>
+        <p class="text">This should be styled</p>
+    </div>
+    <h1>Self Check</h1>
+    <ul>
+        <li>Do the elements that contain the text "This should be styled" have the correct styles applied?</li>
+        <li>Do the elements that contain the text "This should be unstyled" have no styles applied?</li>
+    </ul>
+</body>
+</html>
